@@ -1,7 +1,31 @@
 aid: novast
-name: novast
-description: novast is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/novast.png
+name: Novast Laboratories
+description: >-
+  Novast Laboratories is a pharmaceutical development and manufacturing company
+  (CDMO) headquartered in Nantong, Jiangsu Province, China, founded in 2005 by
+  Dr. Guohua Zhang and a multinational management team. Novast specializes in
+  high-barrier, difficult-to-formulate generic and specialty pharmaceuticals,
+  including ultra-low-dose hormonal and extended- / modified-release oral
+  products built on proprietary drug-delivery technologies. It is noted as one
+  of the first China-based pharmaceutical companies to gain U.S. FDA approval
+  for finished drug products marketed in the United States, and provides
+  contract development and manufacturing services to generic and innovator
+  companies. Surfaced as a portfolio company of Qiming Venture Partners and
+  added to the API Evangelist network. Novast is a physical pharmaceutical
+  manufacturer and publishes no public developer API, OpenAPI specification, SDK,
+  or developer documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/novast/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +33,19 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-api-surface: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Pharmaceuticals
+- Drug Delivery
+- CDMO
+- Generics
+- Extended Release
+- Healthcare
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +54,9 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://novast.com
+  url: https://www.novast.cn/EN/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
